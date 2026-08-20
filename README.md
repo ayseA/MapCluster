@@ -13,10 +13,12 @@ Official releases of this add-on are available at Vaadin Directory. For Maven in
 
 ## Building and running demo
 
-git clone <url of the MapCluster repository>\
-mvn clean install\
-cd demo\
-mvn jetty:run 
+```bash
+git clone <url of the MapCluster repository>
+mvn clean install
+cd demo
+mvn jetty:run
+```
 
 To see the demo, navigate to [http://localhost:8080/mapMarkerClusters-demo/](http://localhost:8080/mapMarkerClusters-demo/)
 
