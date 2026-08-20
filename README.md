@@ -5,7 +5,7 @@ MapCluster is a UI component add-on for Vaadin 8. It generates clusters of geogr
 
 ## Online demo
 
-Whenever the site is on - http://104.198.48.34/
+Whenever the site is on - [http://104.198.48.34/](http://104.198.48.34/)
 
 ## Download release
 
@@ -16,7 +16,7 @@ Official releases of this add-on are available at Vaadin Directory. For Maven in
 git clone <url of the MapCluster repository>\
 mvn clean install\
 cd demo\
-mvn jetty:run\
+mvn jetty:run 
 
 To see the demo, navigate to [http://localhost:8080/mapMarkerClusters-demo/](http://localhost:8080/mapMarkerClusters-demo/)
 
