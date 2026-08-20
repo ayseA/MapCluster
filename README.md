@@ -1,7 +1,7 @@
 # MapCluster Add-on for Vaadin 8
 
 MapCluster is a UI component add-on for Vaadin 8. It generates clusters of geographic locations on 
-[https://vaadin.com/directory/component/v-leaflet] (https://vaadin.com/directory/component/v-leaflet) map and puts each cluster on a marker. Re-adjusts clusters as the map is moved or zoomed in/out. The clusters are apart from one another 10%+ of the map size. This percentage is configurable. Other distance metrics can be coded-- see `ClusterUtils.computeClusterDistanceLimit()`. 
+[https://vaadin.com/directory/component/v-leaflet](https://vaadin.com/directory/component/v-leaflet) map and puts each cluster on a marker. Re-adjusts clusters as the map is moved or zoomed in/out. The clusters are apart from one another 10%+ of the map size. This percentage is configurable. Other distance metrics can be coded-- see `ClusterUtils.computeClusterDistanceLimit()`. 
 
 ## Online demo
 
@@ -9,16 +9,16 @@ Whenever the site is on - http://104.198.48.34/
 
 ## Download release
 
-Official releases of this add-on are available at Vaadin Directory. For Maven instructions, download and reviews, go to https://vaadin.com/directory/component/mapcluster-add-on
+Official releases of this add-on are available at Vaadin Directory. For Maven instructions, download and reviews, go to [https://vaadin.com/directory/component/mapcluster-add-on](https://vaadin.com/directory/component/mapcluster-add-on)
 
 ## Building and running demo
 
-git clone <url of the MapCluster repository>
-mvn clean install
-cd demo
-mvn jetty:run
+git clone <url of the MapCluster repository>\
+mvn clean install\
+cd demo\
+mvn jetty:run\
 
-To see the demo, navigate to http://localhost:8080/mapMarkerClusters-demo/
+To see the demo, navigate to [http://localhost:8080/mapMarkerClusters-demo/](http://localhost:8080/mapMarkerClusters-demo/)
 
 ## Development with Eclipse IDE
 
@@ -41,7 +41,7 @@ If you have not already compiled the widgetset, do it now by running vaadin:inst
 
 If you have a JRebel license, it makes on the fly code changes faster. Just add JRebel nature to your mapMarkerClusters-demo project by clicking project with right mouse button and choosing JRebel > Add JRebel Nature
 
-To debug project and make code modifications on the fly in the server-side, right-click the mapMarkerClusters-demo project and choose Debug As > Debug on Server. Navigate to http://localhost:8080/mapMarkerClusters-demo/ to see the application.
+To debug project and make code modifications on the fly in the server-side, right-click the mapMarkerClusters-demo project and choose Debug As > Debug on Server. Navigate to [http://localhost:8080/mapMarkerClusters-demo/](http://localhost:8080/mapMarkerClusters-demo/) to see the application.
 
 ### Debugging client-side
 
